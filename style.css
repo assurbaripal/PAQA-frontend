@@ -1,0 +1,67 @@
+	body
+	{
+		font-family: Verdana;
+	}	
+	h1
+	{
+		font-size: 26px;
+	}
+	/*nieodwiedzony link*/
+	a:link
+	{	
+	}
+	/*odwiedzony*/
+	a:visited
+	{
+	}
+	/*po najechaniu*/
+	a:hover
+	{
+	}		
+	
+	#container
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	#logo
+	{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 10px;
+	}
+	#nav
+	{
+		float: left;
+		background-color: lightgray;
+		width: 120px;
+		min-height: 450px;
+		padding: 10px;
+	}
+	#content
+	{
+		float: left;
+		background-color: white;	
+		min-height: 450px;
+		width: 1033px;
+		padding: 10px;		
+	}
+	
+	#advert
+	{
+		float: left;
+		background-color: lightgray;
+		margin-right: auto;		
+		min-height: 450px;
+		width: 120px;
+		padding: 10px;			
+	} 
+	#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;		
+		text-align: center;
+		padding: 10px;	
+	}
