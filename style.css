@@ -6,18 +6,6 @@
 	{
 		font-size: 26px;
 	}
-	/*nieodwiedzony link*/
-	a:link
-	{	
-	}
-	/*odwiedzony*/
-	a:visited
-	{
-	}
-	/*po najechaniu*/
-	a:hover
-	{
-	}		
 	
 	#container
 	{
@@ -33,35 +21,33 @@
 	}
 	#nav
 	{
-		float: left;
 		background-color: lightgray;
-		width: 120px;
-		min-height: 450px;
 		padding: 10px;
 	}
 	#content
 	{
-		float: left;
 		background-color: white;	
-		min-height: 450px;
-		width: 1033px;
+		min-height: 400px;
 		padding: 10px;		
 	}
 	
-	#advert
-	{
-		float: left;
-		background-color: lightgray;
-		margin-right: auto;		
-		min-height: 450px;
-		width: 120px;
-		padding: 10px;			
-	} 
 	#footer
 	{
-		clear: both;
 		background-color: black;
 		color: white;		
 		text-align: center;
 		padding: 10px;	
 	}
+	
+/*nieodwiedzony link*/
+a:link
+{	
+}
+/*odwiedzony*/
+a:visited
+{
+}
+/*po najechaniu*/
+a:hover
+{
+}
